@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TinyStartApp</string>
+    <string name="TSA_exec_luncher_start_button">start</string>
+    <string name="TSA_exec_luncher_stopping_button">stopping</string>
+    <string name="TSA_exec_luncher_starting_button">starting</string>
+    <string name="TSA_exec_luncher_stop_button">stop</string>
+
+</resources>
