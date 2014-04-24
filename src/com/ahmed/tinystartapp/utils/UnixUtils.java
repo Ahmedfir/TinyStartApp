@@ -100,7 +100,7 @@ public final class UnixUtils {
 	 */
 	public static String getPid(String processName) {
 
-		return exec(GET_PROCESS_ID_BY_NAME + processName);
+		return exec(GET_ROOT_PERMISSIONS + GET_PROCESS_ID_BY_NAME + processName);
 	}
 
 	/**
@@ -109,7 +109,7 @@ public final class UnixUtils {
 	 */
 	public static String setExecutable(String executableFilePath) {
 
-		return exec(GET_PROCESS_ID_BY_NAME + executableFilePath);
+		return exec(SET_FILE_AS_EXECUTABLE + executableFilePath);
 	}
 
 }
