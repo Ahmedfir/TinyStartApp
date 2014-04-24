@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 	/**
 	 * name of the executable
 	 */
-	private static final String EXECUTABLE_NAME = "SourceyLiteTest";
+	private static final String EXECUTABLE_NAME = "SleepExec";
 
 	/**
 	 * extension of the executable
